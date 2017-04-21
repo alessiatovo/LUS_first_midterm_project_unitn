@@ -29,12 +29,12 @@ Step 2:
 
 Step 3: 
 #the only two paramter that is possible to change are:
- -  <order>:	put an integer number between 1 and 5
- -  <method>:	put one of these six smoothing method: absolute, witten_bell, kneser_ney, katz, unsmoothed, presmoothed
+ -  _order_:	put an integer number between 1 and 5
+ -  _method_:	put one of these six smoothing method: absolute, witten_bell, kneser_ney, katz, unsmoothed, presmoothed
 
 IN ORDER TO EXECUTE THIS STEP AND MAINTAIN ALL THE RESULTS, CREATE THREE DIFFERENT FOLDERS CALLED word_test, lemma_test AND pos_test AND COPY THE FOLLOWING FILES INTO THE DIRECTORIES BEFORE EXECUTING THE COMMAND.
 
-Evaluation results are contained in the directory named <method>
+Evaluation results are contained in the directory named _method_
 
 A - The folder word_test must contain:
  	elaborator.sh
