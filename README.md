@@ -36,7 +36,7 @@ IN ORDER TO EXECUTE THIS STEP AND MAINTAIN ALL THE RESULTS, CREATE THREE DIFFERE
 
 Evaluation results are contained in the directory named _method_
 
-A - The folder word_test must contain:
+- The folder word_test must contain:
  	- elaborator.sh
  	- conlleval.pl
  	- lexicon_word.txt
@@ -48,26 +48,26 @@ A - The folder word_test must contain:
  	Than it is possbile executed this command
 	./elaborator.sh automata_1.fst lexicon_word.txt words_sentences.txt _order_ _method_
 
-B - The folder lemma_test must contain:
- 	elaborator.sh
- 	conlleval.pl
- 	lexicon_lemma.txt
- 	automata_2_sort.fst
- 	IOB_sentence.txt
- 	lemma_sentences.txt
- 	NLSPARQL.test.data
+- The folder lemma_test must contain:
+ 	- elaborator.sh
+ 	- conlleval.pl
+ 	- lexicon_lemma.txt
+ 	- automata_2_sort.fst
+ 	- IOB_sentence.txt
+ 	- lemma_sentences.txt
+ 	- NLSPARQL.test.data
 
  	Than it is possbile executed this command
 	./elaborator.sh automata_2.fst lexicon_lemma.txt lemma_sentences.txt _order_ _method_
 
-C - The folder pos_test must contain:
- 	elaborator.sh
- 	conlleval.pl
- 	lexicon_pos.txt
- 	automata_3_sort.fst
- 	IOB_sentence.txt
- 	pos_sentences.txt
- 	NLSPARQL.test.data
+- The folder pos_test must contain:
+ 	- elaborator.sh
+ 	- conlleval.pl
+ 	- lexicon_pos.txt
+ 	- automata_3_sort.fst
+ 	- IOB_sentence.txt
+ 	- pos_sentences.txt
+ 	- NLSPARQL.test.data
 
  	Than it is possbile executed this command
 	./elaborator.sh automata_2.fst lexicon_pos.txt pos_sentences.txt _order_ _method_
@@ -111,7 +111,7 @@ Step 3:
 IN ORDER TO EXECUTE THIS STEP AND MAINTAIN ALL THE RESULTS, CREATE TWO DIFFERENT FOLDERS CALLED lower_test AND upper_test and copy AND COPY THE FOLLOWING FILES INTO THE DIRECTORIES BEFORE EXECUTING THE COMMAND.
 Evaluation results are contained in the directory named _method_.
   
-The folder lower_test must contain:
+- The folder lower_test must contain:
  	- elaborator.sh
  	- conlleval.pl
  	- lexicon_lower.txt
@@ -123,7 +123,7 @@ The folder lower_test must contain:
  	Than it is possbile executed this command
 	./elaborator.sh automata_lower.fst lexicon_lower.txt sentences.txt _order_ _method_
 
-The folder upper_test must contain:
+- The folder upper_test must contain:
  	- elaborator.sh
  	- conlleval.pl
  	- lexicon_upper.txt
