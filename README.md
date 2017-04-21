@@ -28,7 +28,7 @@ Step 2:
 ./compilation.sh
 
 Step 3: 
-#the only two paramter that is possible to change are:
+the only two paramter that is possible to change are:
  -  _order_:	put an integer number between 1 and 5
  -  _method_:	put one of these six smoothing method: absolute, witten_bell, kneser_ney, katz, unsmoothed, presmoothed
 
@@ -107,7 +107,7 @@ Step 2:
 ./compilation.sh
 
 Step 3: 
-#the only two paramter that is possible to change are:
+the only two paramter that is possible to change are:
  - _order_:	put an integer number between 1 and 5
  - _method_:	put one of these six smoothing method: absolute, witten_bell, kneser_ney, katz, unsmoothed, presmoothed
 
