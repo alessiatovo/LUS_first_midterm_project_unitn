@@ -46,6 +46,7 @@ Evaluation results are contained in the directory named _method_
  	- NLSPARQL.test.data
 
  	Than it is possbile executed this command
+	
 	./elaborator.sh automata_1.fst lexicon_word.txt words_sentences.txt _order_ _method_
 
 - The folder lemma_test must contain:
@@ -58,6 +59,7 @@ Evaluation results are contained in the directory named _method_
  	- NLSPARQL.test.data
 
  	Than it is possbile executed this command
+	
 	./elaborator.sh automata_2.fst lexicon_lemma.txt lemma_sentences.txt _order_ _method_
 
 - The folder pos_test must contain:
@@ -70,6 +72,7 @@ Evaluation results are contained in the directory named _method_
  	- NLSPARQL.test.data
 
  	Than it is possbile executed this command
+	
 	./elaborator.sh automata_2.fst lexicon_pos.txt pos_sentences.txt _order_ _method_
 
 
@@ -121,6 +124,7 @@ Evaluation results are contained in the directory named _method_.
  	- NLSPARQL.test.data
 
  	Than it is possbile executed this command
+	
 	./elaborator.sh automata_lower.fst lexicon_lower.txt sentences.txt _order_ _method_
 
 - The folder upper_test must contain:
@@ -133,6 +137,7 @@ Evaluation results are contained in the directory named _method_.
  	- NLSPARQL.test.data
 
  	Than it is possbile executed this command
+	
 	./elaborator.sh automata_upper.fst lexicon_upper.txt sentences.txt _order_ _method_
 
 ----------------------------------------------------------------------------------------------------------------------------
