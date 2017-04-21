@@ -1,4 +1,8 @@
-Into the main directory there are three sub-directories: independent_features, lexicon_cutoff, standard_training and lemmapos
+README
+
+This document has the aim to explain all the steps to compile correctly the project. More details about the project are written in the report.pdf
+
+The are four different project implementations, each of them corresponds to a specific directory: independent_features, lexicon_cutoff, standard_training and lemmapos
 Each directory contains all the files necessary to do three different types of testing:
 	- standard_training:		the main.py script generates three different automata_files (.txt extensions) to do standard training and testing, i.e. the transitions word/lemma/pos -> iob tag are used 
 								Automa for transitions word - iob tag
