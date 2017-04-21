@@ -37,16 +37,16 @@ IN ORDER TO EXECUTE THIS STEP AND MAINTAIN ALL THE RESULTS, CREATE THREE DIFFERE
 Evaluation results are contained in the directory named _method_
 
 A - The folder word_test must contain:
- 	elaborator.sh
- 	conlleval.pl
- 	lexicon_word.txt
- 	automata_1_sort.fst
- 	IOB_sentence.txt
- 	words_sentences.txt
- 	NLSPARQL.test.data
+ 	- elaborator.sh
+ 	- conlleval.pl
+ 	- lexicon_word.txt
+ 	- automata_1_sort.fst
+ 	- IOB_sentence.txt
+ 	- words_sentences.txt
+ 	- NLSPARQL.test.data
 
  	Than it is possbile executed this command
-	./elaborator.sh automata_1.fst lexicon_word.txt words_sentences.txt <order> <method>
+	./elaborator.sh automata_1.fst lexicon_word.txt words_sentences.txt _order_ _method_
 
 B - The folder lemma_test must contain:
  	elaborator.sh
@@ -58,7 +58,7 @@ B - The folder lemma_test must contain:
  	NLSPARQL.test.data
 
  	Than it is possbile executed this command
-	./elaborator.sh automata_2.fst lexicon_lemma.txt lemma_sentences.txt <order> <method>
+	./elaborator.sh automata_2.fst lexicon_lemma.txt lemma_sentences.txt _order_ _method_
 
 C - The folder pos_test must contain:
  	elaborator.sh
@@ -70,7 +70,7 @@ C - The folder pos_test must contain:
  	NLSPARQL.test.data
 
  	Than it is possbile executed this command
-	./elaborator.sh automata_2.fst lexicon_pos.txt pos_sentences.txt <order> <method>
+	./elaborator.sh automata_2.fst lexicon_pos.txt pos_sentences.txt _order_ _method_
 
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -84,13 +84,13 @@ Step 2:
 ./compilation.sh
 
 Step 3:
-./elaborator.sh automata_complete.fst lexicon_lemmatization.txt sentences.txt <order> <method>
+./elaborator.sh automata_complete.fst lexicon_lemmatization.txt sentences.txt _order_ _method_
  
 The only two paramter that is possible to change are:
- - <order>:	put an integer number between 1 and 5
- -  <method>:	put one of these six smoothing method: absolute, witten_bell, kneser_ney, katz, unsmoothed, presmoothed
+ - _order_:	put an integer number between 1 and 5
+ - _method_:	put one of these six smoothing method: absolute, witten_bell, kneser_ney, katz, unsmoothed, presmoothed
 
-Evaluation results are contained in the directory named <method>
+Evaluation results are contained in the directory named _method_
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -105,35 +105,35 @@ Step 2:
 
 Step 3: 
 #the only two paramter that is possible to change are:
- - 	<order>:	put an integer number between 1 and 5
- -  <method>:	put one of these six smoothing method: absolute, witten_bell, kneser_ney, katz, unsmoothed, presmoothed
+ - _order_:	put an integer number between 1 and 5
+ - _method_:	put one of these six smoothing method: absolute, witten_bell, kneser_ney, katz, unsmoothed, presmoothed
 
 IN ORDER TO EXECUTE THIS STEP AND MAINTAIN ALL THE RESULTS, CREATE TWO DIFFERENT FOLDERS CALLED lower_test AND upper_test and copy AND COPY THE FOLLOWING FILES INTO THE DIRECTORIES BEFORE EXECUTING THE COMMAND.
-Evaluation results are contained in the directory named <method>.
+Evaluation results are contained in the directory named _method_.
   
 The folder lower_test must contain:
- 	elaborator.sh
- 	conlleval.pl
- 	lexicon_lower.txt
- 	automata_lower.fst
- 	IOB_sentence.txt
- 	sentences.txt
- 	NLSPARQL.test.data
+ 	- elaborator.sh
+ 	- conlleval.pl
+ 	- lexicon_lower.txt
+ 	- automata_lower.fst
+ 	- IOB_sentence.txt
+ 	- sentences.txt
+ 	- NLSPARQL.test.data
 
  	Than it is possbile executed this command
-	./elaborator.sh automata_lower.fst lexicon_lower.txt sentences.txt <order> <method>
+	./elaborator.sh automata_lower.fst lexicon_lower.txt sentences.txt _order_ _method_
 
 The folder upper_test must contain:
- 	elaborator.sh
- 	conlleval.pl
- 	lexicon_upper.txt
- 	automata_upper.fst
- 	IOB_sentence.txt
- 	sentences.txt
- 	NLSPARQL.test.data
+ 	- elaborator.sh
+ 	- conlleval.pl
+ 	- lexicon_upper.txt
+ 	- automata_upper.fst
+ 	- IOB_sentence.txt
+ 	- sentences.txt
+ 	- NLSPARQL.test.data
 
  	Than it is possbile executed this command
-	./elaborator.sh automata_upper.fst lexicon_upper.txt sentences.txt <order> <method>
+	./elaborator.sh automata_upper.fst lexicon_upper.txt sentences.txt _order_ _method_
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -146,10 +146,10 @@ Step 2:
 ./compilation.sh
 
 Step 3: 
-./elaborator.sh automata_complete.fst lexicon_lemmatization.txt sentences.txt <order> <method>
+./elaborator.sh automata_complete.fst lexicon_lemmatization.txt sentences.txt _order_ _method_
 
 The only two paramter that is possible to change are:
- -  <order>:	put an integer number between 1 and 5
- -  <method>:	put one of these six smoothing method: absolute, witten_bell, kneser_ney, katz, unsmoothed, presmoothed
+ -  _order_:	put an integer number between 1 and 5
+ -  _method_:	put one of these six smoothing method: absolute, witten_bell, kneser_ney, katz, unsmoothed, presmoothed
  
-Evaluation results are contained in the directory named <method>
+Evaluation results are contained in the directory named _method_
