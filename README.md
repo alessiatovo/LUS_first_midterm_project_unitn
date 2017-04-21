@@ -5,9 +5,9 @@ This document has the aim to explain all the steps to compile correctly the proj
 The are four different project implementations, each of them corresponds to a specific directory: independent_features, lexicon_cutoff, standard_training and lemmapos.
 Each directory contains all the files necessary to do three different types of testing:
 - standard_training: the main.py script generates three different automata_files (.txt extensions) to do standard training and testing, i.e. the transitions word/lemma/pos -> iob tag are used 
-	1 - Automa for transitions word - iob tag
-	2 - Automa for transitions lemma - iob tag
-	3 - Automa for transition pos - iob tag.
+1 - Automa for transitions word - iob tag
+2 - Automa for transitions lemma - iob tag
+3 - Automa for transition pos - iob tag.
 	
 - independent_features:	the ind_feat_script.py script generates three automata to compose. The idea of this train and test is to consider the triple word-lemma-pos independent in order to assign the iob tag to the input words.
 
