@@ -192,32 +192,6 @@ for i in couple_upper:
     else:
         probs_upper.append((i[0], i[1], -(math.log(i[2]/remains))))
 
-######################################################################################
-
-#create the first automata complete (without cut-off system)
-# output_file = "automata_complete.txt"
-#
-# file_data_out=[]
-#
-# with open(output_file, "w") as o:
-#     for x in probs:
-#         file_data_out = o.write("0" +"\t"+ "0" +"\t"+str(x[0]) + "\t" +str(x[1])+"\t"+str(x[2]))
-#         file_data_out=o.write("\n")
-#     for x in counted_labels:
-#         file_data_out = o.write("0"+"\t"+"0"+"\t"+"<unk>"+"\t"+str(x)+"\t"+str(-math.log(1/counted_labels.__len__())))
-#         file_data_out = o.write("\n")
-#     file_data_out = o.write("0")
-#
-# #create the automata that compute the priori probability of tags
-# output_file_2 = "automata_priori_complete.txt"
-# file_data_out_2 = []
-# with open(output_file_2, "w") as o:
-#     for x in probs_tag:
-#         file_data_out = o.write("0" +"\t"+ "0" +"\t"+str(x[0]) + "\t" +str(x[0])+"\t"+str(x[1]))
-#         file_data_out=o.write("\n")
-#     file_data_out_2 = o.write("0")
-#
-# tag_sentence.close()
 
 ########################################################################################À
 
