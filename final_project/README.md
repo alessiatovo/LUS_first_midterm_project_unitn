@@ -12,9 +12,9 @@ In order to execute following scripts you have to install correctly CRF ++ tool.
 
 ### Code
 
-The script merge.py crete a new test set and a new train set, merging the two orignal ones. This script require a number parameter that is the lenght of prefix and suffix. These documents will be created in the data folder.
+The script `./merge.py` crete a new test set and a new train set, merging the two orignal ones. This script require a number parameter that is the lenght of prefix and suffix. These documents will be created in the data folder.
 
-In order to execute the best template that gives best performances run the script ./script.sh. This script also executes the ./merge.py script, since the template uses additional features. The parameter near the script is necessary in order to create prefix and suffix features. In the script is setted to 3 which gives s better performance than other values.
+In order to execute the best template that gives best performances run the script ./script.sh. This script also executes the `./merge.py` script, since the template uses additional features. The parameter near the script is necessary in order to create prefix and suffix features. In the script is setted to 3 which gives s better performance than other values.
 
 In the console you can see the performance of CRF model which should correspond to the one written in the report document.
 
@@ -35,12 +35,12 @@ repository is in your `PYTHONPATH`, e.g run the command
 
 `export PYTHONPATH=/path/where/rnn_slu/is:$PYTHONPATH`.
 
-Script ./script.py _parameter_ is foundamental to generate documents necessary to build the RNN model, like word lexicon document, label lexicon document, validation and train set.
+Script `./script.py _parameter_` is foundamental to generate documents necessary to build the RNN model, like word lexicon document, label lexicon document, validation and train set.
 The parameter, that must be a number is the size of the validation set and consequently of the train set. Best performance is given with 10.
 
 (Following scripts may take long time, like ~ 40 minutes)
 
-Script ./launch_elman.sh allow to exectue the Elman model that gives best results. The result are visible in console. 
+Script `./launch_elman.sh` allow to exectue the Elman model that gives best results. The result are visible in console. 
 
-Script ./launch_jordan.sh allow to exectue the Elman model that gives best results. The result are visible in console. 
+Script `./launch_jordan.sh` allow to exectue the Elman model that gives best results. The result are visible in console. 
 
