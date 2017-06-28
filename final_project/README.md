@@ -33,8 +33,8 @@ repository is in your `PYTHONPATH`, e.g run the command
 
 `export PYTHONPATH=/path/where/rnn_slu/is:$PYTHONPATH`.
 
-Script ./script.py <number parameter> is foundamental to generate documents necessary to build the RNN model, like word lexicon document, label lexicon document, validation and train set.
-The parameter is the size of the validation set and consequently of the train set. Best performance is given with 10.
+Script ./script.py _parameter_ is foundamental to generate documents necessary to build the RNN model, like word lexicon document, label lexicon document, validation and train set.
+The parameter, that must be a number is the size of the validation set and consequently of the train set. Best performance is given with 10.
 
 (Following scripts may take long time, like ~ 40 minutes)
 
