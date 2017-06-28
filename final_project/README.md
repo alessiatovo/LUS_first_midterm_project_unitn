@@ -1,4 +1,4 @@
-README
+## README
 
 This document has the purpose to exaplain how compile correctly the final_project.
 
@@ -6,9 +6,11 @@ Inside the directory final_project there are two sub directories: crf and rnn.
 
 -------------------------------------------------------------------------------------
 
-CRF INSTRUCTIONS
+## CRF INSTRUCTIONS
 
 In order to execute following scripts you have to install correctly CRF ++ tool.
+
+### Code
 
 The script merge.py crete a new test set and a new train set, merging the two orignal ones. This script require a number parameter that is the lenght of prefix and suffix. These documents will be created in the data folder.
 
@@ -18,7 +20,7 @@ In the console you can see the performance of CRF model which should correspond 
 
 -----------------------------------------------------------------------------------
 
-RNN INSTRUCTION
+## RNN INSTRUCTION
 
 This code is given during the course and is based on papers:
 
@@ -26,7 +28,7 @@ This code is given during the course and is based on papers:
 
 [Grégoire Mesnil, Yann Dauphin, Kaisheng Yao, Yoshua Bengio, Li Deng, Dilek Hakkani-Tur, Xiaodong He, Larry Heck, Gokhan Tur, Dong Yu and Geoffrey Zweig - **Using Recurrent Neural Networks for Slot Filling in Spoken Language Understanding**](http://www.iro.umontreal.ca/~lisa/pointeurs/taslp_RNNSLU_final_doubleColumn.pdf)
 
-## Code
+#### Code
 
 In order to reproduce the results, make sure Theano is installed and the
 repository is in your `PYTHONPATH`, e.g run the command
