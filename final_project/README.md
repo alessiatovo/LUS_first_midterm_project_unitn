@@ -10,7 +10,7 @@ CRF INSTRUCTIONS
 
 In order to execute following scripts you have to install correctly CRF ++ tool.
 
-The script merge.py crete a new test set and a new train set, merging the two orignal ones. These documents will be created in the data folder.
+The script merge.py crete a new test set and a new train set, merging the two orignal ones. This script require a number parameter that is the lenght of prefix and suffix. These documents will be created in the data folder.
 
 In order to execute the best template that gives best performances run the script ./script.sh. This script also executes the ./merge.py script, since the template uses additional features. The parameter near the script is necessary in order to create prefix and suffix features. In the script is setted to 3 which gives s better performance than other values.
 
